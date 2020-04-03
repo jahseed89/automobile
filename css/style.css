@@ -1,0 +1,179 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+
+	#box{
+		/*border: 1px solid #ff0000;*/
+		width: 85%;
+		margin: 5px auto;
+		/*background-color: green;*/
+		background-image: url('../cars_img/home.jpeg');
+		
+	}
+
+
+	#defirst, #desecond, #dethird, #deforth, #delast{
+		/*border: 1px solid #ff0000;*/
+		margin: 5px;
+	}
+
+	#defirst, #delast{
+		height: 100px
+	}
+
+	#defirst h1{
+		text-align: center;
+		color: #ff0000
+	}
+
+	#defirst h3{
+		text-align: center;
+		color: red
+	}
+
+	#defirst h4{
+		color: blue;
+	}
+
+	#desecond{
+		height: 50px;
+		background-color: #ff0000
+	}
+
+	#desecond a{
+		color: #fff;
+		font-family: "arial";
+		letter-spacing: 2px;
+		font-size: 20px;
+		display: inline-block;
+		padding: 12px 25px;
+	}
+	
+	#desecond a:hover{
+		background-color: #ff7000;
+		text-decoration: underline;
+	}
+
+	#dethird{
+		width: 25%;
+		height: 400px;
+	}
+
+	#dethird p{
+		padding: 15px;
+		color: white;
+		height: 5px;
+	}
+
+	#dethird h3{
+		color: red;
+		text-align: center;
+	}
+
+	#dethird ul{
+		width: 100%;
+		list-style: none;
+		background-color: #ff0000;
+	}
+
+	#dethird ul li{
+		border-bottom: 1px solid #fff;
+	}
+
+	#dethird ul li a{
+		font-family: "arial";
+		letter-spacing: 2px;
+		font-size: 20px;
+		color: #fff;
+		padding: 10px 20px;
+		display: block;
+	}
+
+	#dethird ul li a:hover{
+		background-color: #ff7000;
+		text-decoration: none;
+	}
+
+	#deforth{
+		width: 72.5%;
+
+	}
+
+	#dethird, #deforth{
+		float: left;
+	}
+
+	#delast{
+		clear: both;
+		text-align: center;
+		color: brown;
+		margin: 70px
+	}
+
+	#delast h3{
+		padding: 20px
+	}
+
+	#defith{
+		/*border: 1px solid #ff7000;*/
+		width: 400px;
+		color: black;
+		font-family: "Arial";
+		letter-spacing: 2px;
+		word-spacing: 1px;
+		line-height: 150%;
+		padding: 15px;
+		height: 200px;
+		overflow: scroll;
+	}
+
+	#defith p{
+		color: white
+	}
+
+	#desith{
+		/*border: 1px solid #ff7000;*/
+		width: 500px;
+		color: #ff7000;
+		font-family: "Arial";
+		letter-spacing: 2px;
+		word-spacing: 3px;
+		line-height: 150%;
+		padding: 20px;
+		height: 200px;
+		margin-left: 60px
+	}
+
+	#desith h3{
+		text-align: center;
+	}
+
+	#defith, #desith{
+		float: left;
+	}
+
+	.cars{
+		/*border: 1px solid #ff0000;*/
+		margin: 20px;
+		width: 320px;
+		float: right;
+		text-align: center;
+	}
+
+	.cars .here{
+		/*border: 1px solid #ff0000;*/
+		margin: 5px 10px;
+	}
+
+	.cars .here h2{
+		color: #ff0000;
+		text-align: center;
+		font-family: "times new roman";
+		font-weight: normal;
+	}
+
+	.special{
+		text-align: center;
+		color: brown;
+	}
